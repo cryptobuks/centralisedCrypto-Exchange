@@ -20,7 +20,7 @@ var urlencodedParser = bodyParser.urlencoded({extended:false});
 var mysqlConnection = mysql.createConnection({
   host:"localhost",
   user:"root",
-  password:"washroom@49",
+  password:"",
   database:"orders"
 });
 mysqlConnection.connect();
